@@ -26,6 +26,7 @@ class Dependencies:
         return str(datetime.now())
 
     def get_model(self, llm_service:str, llm:str = None):
+        #  Langchian LLM, Code Genie or OpenAI
         if llm is None or llm == "":
             llm = "gpt-4o-mini" if llm_service == "langchain" else "google/gemini-1.5-pro-001"
         try:
@@ -39,6 +40,7 @@ class Dependencies:
             raise 
 
     def read_img(self, image_content: Dict, access_token: str):
+        # reading the image from the url
         if image_content["contentType"] == "application/vnd.microsoft.teams.file.download.info":
             try: 
                 response = requests.get(image_content["downloadUrl"])
@@ -61,6 +63,7 @@ class Dependencies:
                 raise 
             
     def encode_image(self):
+        # encoding the image to base64
         self.base64_images = []
         try:
             for image in self.images:
@@ -74,6 +77,7 @@ class Dependencies:
 
         
     def describe_image(self, image_contents,access_token: str, llm_service: str = "langchain", llm = None):
+        # getting the image description
         image_description = ""
         client =  self.get_model(llm_service, llm)
         self.images = []
@@ -121,6 +125,7 @@ class Dependencies:
             raise 
     
     def chat_comlpletions(self, text, image_description, llm_service: str, llm: str = None):
+        # chat completion
         client =  self.get_model(llm_service, llm)
         try:
             if image_description == "" and text == "":
