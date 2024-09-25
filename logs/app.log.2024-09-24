@@ -1,0 +1,76 @@
+2024-09-24 12:42:34,597 - INFO - LLM initialised...groq @ 2024-09-24 12:42:34.597531
+2024-09-24 12:43:10,421 - INFO - LLM initialised...groq @ 2024-09-24 12:43:10.421946
+2024-09-24 12:44:09,983 - INFO - LLM initialised...groq @ 2024-09-24 12:44:09.983082
+2024-09-24 12:46:23,169 - INFO - LLM initialised...groq @ 2024-09-24 12:46:23.169281
+2024-09-24 12:46:23,314 - INFO - Image response => 200
+2024-09-24 12:47:08,702 - INFO - LLM initialised...groq @ 2024-09-24 12:47:08.702605
+2024-09-24 12:47:08,834 - INFO - Image response => 200
+2024-09-24 12:53:22,358 - INFO - LLM initialised...groq @ 2024-09-24 12:53:22.358340
+2024-09-24 12:53:22,527 - INFO - Image response => 200
+2024-09-24 12:53:22,606 - INFO - Image response => 401
+2024-09-24 12:54:01,162 - INFO - LLM initialised...groq @ 2024-09-24 12:54:01.162216
+2024-09-24 12:54:01,390 - INFO - Image response => 200
+2024-09-24 12:54:01,464 - INFO - Image response => 401
+2024-09-24 12:55:01,225 - INFO - LLM initialised...groq @ 2024-09-24 12:55:01.225566
+2024-09-24 12:55:01,494 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 12:55:01,606 - INFO - Image response (image/*) => 401
+2024-09-24 12:56:24,134 - INFO - LLM initialised...groq @ 2024-09-24 12:56:24.134793
+2024-09-24 12:56:24,354 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 12:56:25,401 - INFO - Image response (image/*) => 200
+2024-09-24 13:00:16,760 - INFO - LLM initialised...groq @ 2024-09-24 13:00:16.760563
+2024-09-24 13:00:16,970 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:00:17,993 - INFO - Image response (image/*) => 200
+2024-09-24 13:02:11,286 - INFO - LLM initialised...groq @ 2024-09-24 13:02:11.286928
+2024-09-24 13:02:11,448 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:02:12,294 - INFO - Image response (image/*) => 200
+2024-09-24 13:03:26,320 - INFO - LLM initialised...groq @ 2024-09-24 13:03:26.320511
+2024-09-24 13:03:26,440 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:03:27,695 - INFO - Image response (image/*) => 200
+2024-09-24 13:11:04,600 - INFO - LLM initialised...groq @ 2024-09-24 13:11:04.600805
+2024-09-24 13:15:50,277 - INFO - LLM initialised...groq @ 2024-09-24 13:15:50.277290
+2024-09-24 13:16:32,477 - INFO - LLM initialised...groq @ 2024-09-24 13:16:32.477800
+2024-09-24 13:16:32,586 - INFO - Image response (application/vn.d.microsoft) => 401
+2024-09-24 13:16:38,661 - INFO - LLM initialised...groq @ 2024-09-24 13:16:38.661020
+2024-09-24 13:17:33,251 - INFO - LLM initialised...groq @ 2024-09-24 13:17:33.251357
+2024-09-24 13:17:33,349 - INFO - Image response (application/vn.d.microsoft) => 401
+2024-09-24 13:17:39,510 - INFO - LLM initialised...groq @ 2024-09-24 13:17:39.510735
+2024-09-24 13:22:01,858 - INFO - LLM initialised...groq @ 2024-09-24 13:22:01.858149
+2024-09-24 13:22:02,073 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:22:03,103 - INFO - Image response (image/*) => 200
+2024-09-24 13:22:27,417 - INFO - LLM initialised...groq @ 2024-09-24 13:22:27.417556
+2024-09-24 13:22:47,447 - INFO - LLM initialised...groq @ 2024-09-24 13:22:47.447083
+2024-09-24 13:22:47,750 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:22:48,679 - INFO - Image response (image/*) => 200
+2024-09-24 13:23:10,075 - INFO - LLM initialised...groq @ 2024-09-24 13:23:10.075717
+2024-09-24 13:28:32,100 - INFO - LLM initialised...groq @ 2024-09-24 13:28:32.100586
+2024-09-24 13:31:07,492 - INFO - LLM initialised...groq @ 2024-09-24 13:31:07.492224
+2024-09-24 13:32:17,490 - INFO - LLM initialised...groq @ 2024-09-24 13:32:17.490351
+2024-09-24 13:33:26,650 - INFO - LLM initialised...groq @ 2024-09-24 13:33:26.650085
+2024-09-24 13:34:02,144 - INFO - LLM initialised...groq @ 2024-09-24 13:34:02.144007
+2024-09-24 13:34:02,352 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:34:03,393 - INFO - Image response (image/*) => 200
+2024-09-24 13:34:33,779 - INFO - LLM initialised...groq @ 2024-09-24 13:34:33.779934
+2024-09-24 13:46:59,907 - INFO - LLM initialised...groq @ 2024-09-24 13:46:59.907511
+2024-09-24 13:50:19,301 - INFO - LLM initialised...groq @ 2024-09-24 13:50:19.301244
+2024-09-24 13:50:49,247 - INFO - LLM initialised...groq @ 2024-09-24 13:50:49.247757
+2024-09-24 13:50:49,385 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 13:50:50,172 - INFO - Image response (image/*) => 200
+2024-09-24 13:51:20,594 - INFO - LLM initialised...groq @ 2024-09-24 13:51:20.594677
+2024-09-24 14:47:06,459 - INFO - LLM initialised...groq @ 2024-09-24 14:47:06.459475
+2024-09-24 14:47:06,679 - INFO - Image response (application/vn.d.microsoft) => 401
+2024-09-24 14:47:12,779 - INFO - LLM initialised...groq @ 2024-09-24 14:47:12.779112
+2024-09-24 14:49:11,062 - INFO - LLM initialised...groq @ 2024-09-24 14:49:11.062111
+2024-09-24 14:49:11,203 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 14:49:12,170 - INFO - Image response (image/*) => 200
+2024-09-24 14:49:18,728 - INFO - LLM initialised...groq @ 2024-09-24 14:49:18.728923
+2024-09-24 14:51:33,991 - INFO - LLM initialised...groq @ 2024-09-24 14:51:33.991198
+2024-09-24 14:51:34,129 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 14:51:34,829 - INFO - Image response (image/*) => 200
+2024-09-24 14:51:59,665 - INFO - LLM initialised...groq @ 2024-09-24 14:51:59.665328
+2024-09-24 14:53:46,548 - INFO - LLM initialised...groq @ 2024-09-24 14:53:46.548424
+2024-09-24 15:35:44,179 - INFO - LLM initialised...groq @ 2024-09-24 15:35:44.179616
+2024-09-24 15:36:32,182 - INFO - LLM initialised...groq @ 2024-09-24 15:36:32.182645
+2024-09-24 15:37:04,070 - INFO - LLM initialised...groq @ 2024-09-24 15:37:04.070590
+2024-09-24 15:37:04,318 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-24 15:37:05,398 - INFO - Image response (image/*) => 200
+2024-09-24 15:37:38,886 - INFO - LLM initialised...groq @ 2024-09-24 15:37:38.886659

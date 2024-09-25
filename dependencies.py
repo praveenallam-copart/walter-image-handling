@@ -9,6 +9,8 @@ from io import BytesIO
 from langchain_core.messages import HumanMessage
 from typing import Dict
 import base64
+import httpx
+import asyncio
 
 load_dotenv()
 
@@ -39,28 +41,29 @@ class Dependencies:
             self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
             raise 
 
-    def read_img(self, image_content: Dict, access_token: str):
+    async def read_img(self, image_content: Dict, access_token: str):
         # reading the image from the url
-        if image_content["contentType"] == "application/vnd.microsoft.teams.file.download.info":
-            try: 
-                response = requests.get(image_content["downloadUrl"])
-                self.app_logger.info(f"Image response (application/vn.d.microsoft) => {response.status_code}")
-                self.images.append(Image.open(BytesIO(response.content)))
-            except Exception as e:
-                self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
-                raise 
-        if image_content["contentType"] == "image/*":
-            headers = {
-                    "Authorization": f"Bearer {access_token}",
-                    "Accept": "application/json;odata=verbose"
-                }
-            try:
-                response = requests.get(image_content["contentUrl"], headers = headers)
-                self.app_logger.info(f"Image response (image/*) => {response.status_code}")
-                self.images.append(Image.open(BytesIO(response.content)))
-            except Exception as e:
-                self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
-                raise 
+        async with httpx.AsyncClient() as client:
+            if image_content["contentType"] == "application/vnd.microsoft.teams.file.download.info":
+                try: 
+                    response = await client.get(image_content["downloadUrl"])
+                    self.app_logger.info(f"Image response (application/vn.d.microsoft) => {response.status_code}")
+                    self.images.append(Image.open(BytesIO(response.content)))
+                except Exception as e:
+                    self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
+                    raise 
+            if image_content["contentType"] == "image/*": # smba.trafficmanager.net
+                headers = {
+                        "Authorization": f"Bearer {access_token}",
+                        "Accept": "application/json;odata=verbose"
+                    }
+                try:
+                    response = await client.get(image_content["contentUrl"], headers = headers)
+                    self.app_logger.info(f"Image response (image/*) => {response.status_code}")
+                    self.images.append(Image.open(BytesIO(response.content)))
+                except Exception as e:
+                    self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
+                    raise 
             
     def encode_image(self):
         # encoding the image to base64
@@ -71,21 +74,20 @@ class Dependencies:
                 image = image.convert("RGB")
                 image.save(buffered, format = "JPEG")
                 self.base64_images.append(base64.b64encode(buffered.getvalue()).decode("utf-8"))
+                self.app_logger.info(f"Image got converted to base64 format..")
         except Exception as e:
                 self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
                 raise 
 
-        
-    def describe_image(self, image_contents,access_token: str, llm_service: str = "langchain", llm = None):
+    async def describe_image(self, image_contents,access_token: str, llm_service: str = "langchain", llm = None):
         # getting the image description
         image_description = ""
         client =  self.get_model(llm_service, llm)
         self.images = []
         try:
             image_count = 0
-            for image_content in image_contents:
-                if image_content["contentType"] != "":
-                    self.read_img(image_content, access_token)
+            image_urls = [self.read_img(image_content, access_token) for image_content in image_contents]
+            await asyncio.gather(*image_urls)
             self.encode_image()
             user_content = [{
                         "type": "text",
@@ -114,7 +116,7 @@ class Dependencies:
                     )
                 ]
                 
-                response = client.invoke(messages)
+                response = await client.ainvoke(messages)
                 description = response.content
                 
                 image_count += 1
@@ -124,13 +126,13 @@ class Dependencies:
             self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
             raise 
     
-    def chat_comlpletions(self, text, image_description, llm_service: str, llm: str = None):
+    async def chat_comlpletions(self, text, image_description, llm_service: str, llm: str = None):
         # chat completion
         client =  self.get_model(llm_service, llm)
         try:
             if image_description == "" and text == "":
                 return "Enter any text"
-            content = f"query: {text}" if (image_description == "") else f"query : {text}, image description : {image_description}"
+            content = f"query: {text} \n Answer the query given by user. Answer should be clear with minimal error. Please be sure." if (image_description == "") else f"query : {text}, image_description : {image_description} \n Take help of query and image_description to answer.If the query is related or if it is about image use the image_description to answer it. Answer should be clear with minimal error. Please be sure."
             system = """
             As an LLM, your responsibility is to engage in both casual and factual conversations. Respond to user inputs with accuracy and minimal hallucination, whether the input consists of text queries or image descriptions. Maintain a friendly yet professional tone, ensuring clarity and appropriateness in all responses.
             You must process and analyze both the text query and image description provided in the input. Ensure that no inappropriate or offensive content, including foul language, abusive terms in text, or descriptions of explicit or inappropriate images, is accepted or responded to. 
@@ -140,12 +142,14 @@ class Dependencies:
                 system,
                 {
                     "role" : "user",
-                    "content" :content
+                    "content" : f"inputs : {content}"
                 }
             ]
-            response = client.invoke(messages)
+            response = await client.ainvoke(messages)
             return response.content
         except Exception as e:
             self.error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
             raise
     
+# batching requests for multiple images, Image conversion for large images
+# check fatser image processing libraries

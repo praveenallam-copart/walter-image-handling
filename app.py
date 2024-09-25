@@ -34,22 +34,22 @@ def time():
     return {"time" : Dependencies().get_timestamp()}
 
 @app.post("/image_description")
-def image_description(imageContents: ImageContents):
+async def image_description(imageContents: ImageContents):
     
     try:
-        description = Dependencies().describe_image(imageContents.image_content, imageContents.access_token, llm_service = "groq")["image_description"]
-        return {"image_description" : description}
+        describe_image = await Dependencies().describe_image(imageContents.image_content, imageContents.access_token, llm_service = "langchain")
+        return {"image_description" : describe_image["image_description"]}
     except Exception as e:
         error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
         raise
 
 @app.post("/chat-completions")
-def chat_completions(chatCompletion: ChatCompletion):
+async def chat_completions(chatCompletion: ChatCompletion):
     try:
         text = chatCompletion.text
         image_description = chatCompletion.image_description
-        llm_service = "groq"
-        response = Dependencies().chat_comlpletions(text, image_description, llm_service)   
+        llm_service = "langchain"
+        response = await Dependencies().chat_comlpletions(text, image_description, llm_service)   
         return {"response" : {"status" : "200 OK", "message" : response}}
     except Exception as e:
         error_logger.error(f"An unexpected e occurred: {type(e).__name__, str(e)}")
