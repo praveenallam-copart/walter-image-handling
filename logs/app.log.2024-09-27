@@ -1,0 +1,8 @@
+2024-09-27 10:52:23,376 - INFO - LLM initialised...langchain @ 2024-09-27 10:52:23.376278
+2024-09-27 10:52:23,617 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-27 10:52:23,645 - INFO - Image got converted to base64 format..
+2024-09-27 10:52:42,808 - INFO - LLM initialised...langchain @ 2024-09-27 10:52:42.808787
+2024-09-27 10:54:04,947 - INFO - LLM initialised...langchain @ 2024-09-27 10:54:04.947060
+2024-09-27 10:54:05,151 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-27 10:54:05,164 - INFO - Image got converted to base64 format..
+2024-09-27 10:54:13,504 - INFO - LLM initialised...langchain @ 2024-09-27 10:54:13.504461

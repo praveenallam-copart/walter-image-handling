@@ -1,0 +1,73 @@
+2024-09-25 10:04:45,004 - INFO - LLM initialised...groq @ 2024-09-25 10:04:45.004645
+2024-09-25 10:05:59,482 - INFO - LLM initialised...groq @ 2024-09-25 10:05:59.482158
+2024-09-25 10:07:39,157 - INFO - LLM initialised...groq @ 2024-09-25 10:07:39.157146
+2024-09-25 10:07:39,332 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:07:41,016 - INFO - Image response (image/*) => 200
+2024-09-25 10:08:00,466 - INFO - LLM initialised...groq @ 2024-09-25 10:08:00.466221
+2024-09-25 10:15:34,283 - INFO - LLM initialised...groq @ 2024-09-25 10:15:34.283566
+2024-09-25 10:15:40,373 - INFO - LLM initialised...groq @ 2024-09-25 10:15:40.373754
+2024-09-25 10:16:56,284 - INFO - LLM initialised...groq @ 2024-09-25 10:16:56.284022
+2024-09-25 10:16:56,502 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:16:57,367 - INFO - Image response (image/*) => 200
+2024-09-25 10:17:14,306 - INFO - LLM initialised...groq @ 2024-09-25 10:17:14.306741
+2024-09-25 10:22:01,824 - INFO - LLM initialised...groq @ 2024-09-25 10:22:01.824244
+2024-09-25 10:22:02,133 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:22:02,982 - INFO - Image response (image/*) => 200
+2024-09-25 10:22:07,841 - INFO - LLM initialised...groq @ 2024-09-25 10:22:07.841470
+2024-09-25 10:24:31,765 - INFO - LLM initialised...groq @ 2024-09-25 10:24:31.765726
+2024-09-25 10:24:32,004 - INFO - Image response (application/vn.d.microsoft) => <Response [200 OK]>
+2024-09-25 10:24:32,019 - INFO - Image got converted to base64 format..
+2024-09-25 10:24:33,115 - INFO - Image response (image/*) => 200
+2024-09-25 10:24:33,129 - INFO - Image got converted to base64 format..
+2024-09-25 10:24:37,812 - INFO - LLM initialised...groq @ 2024-09-25 10:24:37.812022
+2024-09-25 10:25:42,830 - INFO - LLM initialised...groq @ 2024-09-25 10:25:42.830559
+2024-09-25 10:25:43,038 - INFO - Image response (application/vn.d.microsoft) => <Response [200 OK]>
+2024-09-25 10:25:43,048 - INFO - Image got converted to base64 format..
+2024-09-25 10:25:43,910 - INFO - LLM initialised...groq @ 2024-09-25 10:25:43.910487
+2024-09-25 10:25:44,192 - INFO - Image response (image/*) => 200
+2024-09-25 10:25:44,203 - INFO - Image got converted to base64 format..
+2024-09-25 10:30:52,869 - INFO - LLM initialised...groq @ 2024-09-25 10:30:52.869531
+2024-09-25 10:30:53,728 - INFO - Image response (application/vn.d.microsoft) => <Response [200 OK]>
+2024-09-25 10:30:53,743 - INFO - Image got converted to base64 format..
+2024-09-25 10:30:54,234 - INFO - Image response (image/*) => 200
+2024-09-25 10:30:54,247 - INFO - Image got converted to base64 format..
+2024-09-25 10:31:22,931 - INFO - LLM initialised...groq @ 2024-09-25 10:31:22.931310
+2024-09-25 10:33:33,234 - INFO - LLM initialised...groq @ 2024-09-25 10:33:33.234060
+2024-09-25 10:33:33,437 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:33:34,705 - INFO - Image response (image/*) => 200
+2024-09-25 10:33:34,707 - INFO - Image got converted to base64 format..
+2024-09-25 10:33:34,717 - INFO - Image got converted to base64 format..
+2024-09-25 10:33:51,916 - INFO - LLM initialised...groq @ 2024-09-25 10:33:51.916534
+2024-09-25 10:39:46,029 - INFO - LLM initialised...groq @ 2024-09-25 10:39:46.029216
+2024-09-25 10:39:46,254 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:39:46,912 - INFO - Image response (image/*) => 200
+2024-09-25 10:39:46,914 - INFO - Image got converted to base64 format..
+2024-09-25 10:39:46,924 - INFO - Image got converted to base64 format..
+2024-09-25 10:40:23,877 - INFO - LLM initialised...groq @ 2024-09-25 10:40:23.876986
+2024-09-25 10:44:05,102 - INFO - LLM initialised...groq @ 2024-09-25 10:44:05.102696
+2024-09-25 10:44:05,318 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:44:06,699 - INFO - Image response (image/*) => 200
+2024-09-25 10:44:06,702 - INFO - Image got converted to base64 format..
+2024-09-25 10:44:06,711 - INFO - Image got converted to base64 format..
+2024-09-25 10:44:23,270 - INFO - LLM initialised...langchain @ 2024-09-25 10:44:23.270792
+2024-09-25 10:46:04,948 - INFO - LLM initialised...langchain @ 2024-09-25 10:46:04.948470
+2024-09-25 10:46:05,189 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:46:06,353 - INFO - Image response (image/*) => 200
+2024-09-25 10:46:06,355 - INFO - Image got converted to base64 format..
+2024-09-25 10:46:06,363 - INFO - Image got converted to base64 format..
+2024-09-25 10:46:29,823 - INFO - LLM initialised...langchain @ 2024-09-25 10:46:29.822985
+2024-09-25 10:50:07,272 - INFO - LLM initialised...langchain @ 2024-09-25 10:50:07.272843
+2024-09-25 10:50:07,450 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 10:50:08,347 - INFO - Image response (image/*) => 200
+2024-09-25 10:50:08,349 - INFO - Image got converted to base64 format..
+2024-09-25 10:50:08,358 - INFO - Image got converted to base64 format..
+2024-09-25 10:50:28,908 - INFO - LLM initialised...langchain @ 2024-09-25 10:50:28.908340
+2024-09-25 11:08:20,109 - INFO - LLM initialised...langchain @ 2024-09-25 11:08:20.109756
+2024-09-25 11:10:30,447 - INFO - LLM initialised...langchain @ 2024-09-25 11:10:30.447429
+2024-09-25 11:10:30,627 - INFO - Image response (image/*) => 200
+2024-09-25 11:10:30,641 - INFO - Image got converted to base64 format..
+2024-09-25 11:10:39,383 - INFO - LLM initialised...langchain @ 2024-09-25 11:10:39.383237
+2024-09-25 11:11:59,721 - INFO - LLM initialised...langchain @ 2024-09-25 11:11:59.721430
+2024-09-25 11:17:38,483 - INFO - LLM initialised...langchain @ 2024-09-25 11:17:38.483078
+2024-09-25 11:17:38,808 - INFO - Image response (application/vn.d.microsoft) => 200
+2024-09-25 11:17:44,950 - INFO - LLM initialised...langchain @ 2024-09-25 11:17:44.950003
