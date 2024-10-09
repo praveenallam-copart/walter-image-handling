@@ -1,0 +1,144 @@
+2024-10-04 11:14:47,531 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:16:09,963 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:16:09,963 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:20:29,799 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:20:29,799 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:20:29,856 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:20:29,856 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:20:34,921 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:20:34,921 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:20:34,922 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:20:34,922 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:20:37,518 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:20:37,518 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:20:37,521 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:20:37,521 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:20:46,158 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:20:46,158 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:20:46,163 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:20:46,163 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:36:51,186 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:36:51,186 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:38:17,248 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:38:17,248 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:40:53,120 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:40:53,120 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:40:53,153 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:40:53,153 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:41:00,121 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:41:00,121 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:41:00,124 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:41:00,124 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:41:03,072 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:41:03,072 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:41:03,075 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:41:03,075 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:41:12,243 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:41:12,243 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:41:12,247 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:41:12,247 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:44:41,334 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:44:41,334 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:44:41,363 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:44:41,363 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:44:45,096 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:44:45,096 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:44:45,097 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:44:45,097 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:44:50,050 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:44:50,050 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:44:50,053 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:44:50,053 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:44:57,521 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:44:57,521 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:44:57,524 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:44:57,524 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:45:41,375 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:45:41,375 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:45:41,404 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:45:41,404 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:45:45,322 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:45:45,322 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:45:45,323 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:45:45,323 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:45:48,171 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:45:48,171 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:45:48,175 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:45:48,175 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:45:58,768 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:45:58,768 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:45:58,772 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:45:58,772 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:47:12,378 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:12,378 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:12,411 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:47:12,411 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:47:16,946 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:47:16,946 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:47:16,947 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:47:16,947 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:47:20,213 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:47:20,213 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:47:20,216 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:47:20,216 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:47:27,364 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:47:27,364 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:47:27,368 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:47:27,368 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:47:30,504 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:30,504 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:30,526 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:47:30,526 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:47:35,422 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:47:35,422 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:47:35,424 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:47:35,424 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:47:38,886 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:47:38,886 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:47:38,889 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:47:38,889 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:47:49,139 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:47:49,139 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:47:49,143 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:47:49,143 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:47:57,665 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:57,665 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 11:47:57,690 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:47:57,690 - INFO - Processing ==> image_filename='RAG_page_1_image_1.jpeg'
+2024-10-04 11:48:01,871 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:48:01,871 - INFO - Got the image description ==> RAG_page_1_image_1.jpeg
+2024-10-04 11:48:01,872 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:48:01,872 - INFO - Processing ==> image_filename='RAG_page_1_image_2.jpeg'
+2024-10-04 11:48:04,936 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:48:04,936 - INFO - Got the image description ==> RAG_page_1_image_2.jpeg
+2024-10-04 11:48:04,938 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:48:04,938 - INFO - Processing ==> image_filename='RAG_page_1_image_3.jpeg'
+2024-10-04 11:48:14,372 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:48:14,372 - INFO - Got the image description ==> RAG_page_1_image_3.jpeg
+2024-10-04 11:48:14,375 - INFO - Processing done ==> extract_images_text
+2024-10-04 11:48:14,375 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:17:42,392 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:17:42,392 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:17:55,523 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:17:55,523 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:18:40,395 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:18:40,395 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:19:30,911 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:19:30,911 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:20:26,174 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:20:26,174 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:21:12,518 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:21:12,518 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:24:54,347 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:24:54,347 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:25:48,558 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:25:48,558 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:25:48,560 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:25:48,560 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:26:55,452 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:26:55,452 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:28:02,129 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:28:02,129 - INFO - Processing done ==> extract_images_text
+2024-10-04 13:28:02,131 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-04 13:28:02,131 - INFO - Loggers Intialized and Access keys are retrieved...
+2024-10-07 09:24:01,618 - INFO - Loggers Intialized and Access keys are retrieved...
