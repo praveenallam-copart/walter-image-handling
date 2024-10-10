@@ -8,7 +8,9 @@ If a user requests information regarding a PDF file by attaching the file and a 
 * First, the PDF file is downloaded and stored. The system then iterates through each page of the PDF, extracting text from each one. If any images are present on a page, they are downloaded and stored with unique names. These images are then used to generate image descriptions. A summary is extracted from each page, and these are combined to create a complete summary of the document
 * The combined summary is used to determine the category of the PDF, such as Education, Politics, or Others.
 * The page content (text) and image descriptions are stored in Langchain's Document format, along with metadata
-> <br>Document(metadata = {'Page': 1, 'source': 'Football Analysis.pdf', 'summary': 'no', 'userid': '743ae8a1-2864-4e54-950e-9a20275e9856'}, page_content = 'Dutch players are not as close....')</br>
+```
+Document(metadata = {'Page': 1, 'source': 'Football Analysis.pdf', 'summary': 'no', 'userid': '743ae8a1-2864-4e54-950e-9a20275e9856'}, page_content = 'Dutch players are not as close....')
+```
 * The Langchain Documents are later split into smaller chunks while preserving the context and meaning, which helps improve retrieval efficiency and reduce costs
 * The splits are converted into embeddings (vector representations of words) and stored in the Vector Store. The Vector Stores are organized according to their respective categories
 * The chat history is updated with the summary, and if the user provides a query along with an attachment, PDF retrieval takes care
